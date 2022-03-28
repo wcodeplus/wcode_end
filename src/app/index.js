@@ -8,6 +8,7 @@ const { indexRouter, userRouter, goodsRouter } = require('../router/main.route')
 // 第二步：实例化
 const app = new Koa()
 
+
 // 第三步：注册
 app.use(indexRouter.routes())
 app.use(userRouter.routes())
