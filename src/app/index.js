@@ -13,6 +13,7 @@ app.use(indexRouter.routes())
 app.use(userRouter.routes())
 app.use(goodsRouter.routes())
 
+
 // 第四步：导出
 module.exports = app
 
