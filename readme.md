@@ -35,3 +35,11 @@ router.get('/', (ctx, next) => {
 ```
 router.get('/', fn)
 ```
+
+
+git branch -m prod master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+
+2022年3月28日23:38:38
